@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./rock.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Rock paper scissor</h1>
+    <h2 id="cyc">choose your choice</h2>
+    <div class="button">
+        <button onclick="play('rock')">👊🏾 STONE
+        </button>
+        <button onclick="play('Paper')">🫲🏾 PAPER </button>
+        <button onclick="play('scissor')">✌🏾 SCISSOR</button>
+    </div>
+    <br><br><br>
+    <div id="result">
+        result
+    </div>
+    <script>
+        function play(player){
+            const choices=['rock','paper','scissor'];
+            let computer=choices[Math.floor(Math.random()*3)];
+            let result='';
+            if(player===computer){
+                result='DRAW 🤔🤔'
+            }
+            else if((player==='rock' && computer==='scissor')||(player==='scissor' && computer==='paper')){
+                result='YOU WIN😍😍😍'
+
+            }
+            else{
+                result="YOU LOSE 👎🏾👎🏾👎🏾"
+            }
+            document.getElementById('result').innerHTML=result
+        }
+    </script>
+</body>
+</html>

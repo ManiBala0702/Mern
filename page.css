@@ -1,0 +1,54 @@
+.topbox{
+    color: blue;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+.topright{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+
+}
+li{
+    list-style: none;
+}
+#l1{
+    font-size: xx-large;
+}
+.nexttop{
+    display: flex;
+    background-color: aqua;
+    width: 2000px;
+}
+#para{
+    display: flex;
+    width: 200px;
+    align-items: end;
+}
+#signbox{
+    border-radius: 20px;
+    background-color: blue;
+    width: 70px;
+    font-size: large;
+    
+}
+#bigbox{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: azure;
+    width: 200px;
+    height: 150px;
+    font-size: xx-small;
+
+}
+#sri{
+    text-align: center;
+}
+.fourthbox{
+    font-size:x-small;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 100px;
+}

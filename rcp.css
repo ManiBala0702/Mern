@@ -1,0 +1,25 @@
+#title{
+    font-style: oblique;
+    font-size: xx-large;
+    text-align: center;
+    background-color: aqua;
+    margin: red;
+    border-color: black;
+}
+button{
+    background-color: blanchedalmond;
+    width: 400px;
+    height: 200px;
+    font-size: 40px;
+    border-radius: 20px;
+    margin: 45px;
+    
+}
+#cyc{
+    text-align: center;
+}
+#result{
+    text-align: center;
+    font-size: xx-large;
+
+}
